@@ -17,10 +17,11 @@ library(tidyverse)
 library(tidymodels)  
 library(ggcorrplot)  
 library(caret)  
+library(brulee)
 
 ## Données
 
-Les informations pour la démonstration proviennent du dépôt de machine learning de l'Université de Californie à Irvine (UCI).
-
+Les informations pour la démonstration proviennent du dépôt de machine learning de l'Université de Californie
+à Irvine (UCI).
 Il s'agit de la base de données sur le cancer du sein au Wisconsin 
 <https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic>   
