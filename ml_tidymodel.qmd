@@ -18,8 +18,9 @@ editor_options:
 
 
 
-## Introduction
-Tidymodels est un métapackage, une collection de packages pour la modélisation et l'apprentissage automatique utilisant les principes de tidyverse.
+## Introduction  
+
+Tidymodels est un métapackage, une collection de packages pour la modélisation et l'apprentissage automatique utilisant les principes de tidyverse. Il offre une approche unifiée et cohérente pour la modélisation statistique, facilitant le prétraitement des données, l'ajustement des modèles et l'évaluation des performances.
 
 
 ## Objectif
