@@ -11,12 +11,12 @@ avec un modèle des k plus proches voisins (KNN).
 
 ## Installation et chargement des packages
 
-Il faut installer tidymodels et charger les différents packages ci-dessous
+Il faut installer tidymodels et charger les différents packages ci-dessous:  
 
-library(tidyverse)
-library(tidymodels)
-library(ggcorrplot)
-library(caret)
+library(tidyverse)  
+library(tidymodels)  
+library(ggcorrplot)  
+library(caret)  
 
 ## Données
 
