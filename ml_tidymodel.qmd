@@ -104,7 +104,7 @@ df <- df1 |> select(-id, -X)
 ```
 
 ```{r}
-# Transformation de la colonne "diagnosis" en facteur
+# Transformation de la variable cible "diagnosis" en facteur
 df <- df|> dplyr::mutate(diagnosis = as.factor(diagnosis))
 ```
 
@@ -150,7 +150,7 @@ ggcorrplot(cor(df[,-1]),tl.cex  = 9,tl.srt = 50,title = "Correlation heat-map")
 
 
 
-### Partiion du jeu de données en apprentissage et test
+### Partition du jeu de données en apprentissage et test
 
 - On utilise le package 'rsample' pour séparer notre jeu de données en deux 
 ```{r}
