@@ -20,21 +20,22 @@ editor_options:
 
 ## Introduction  
 
-Tidymodels est un métapackage, une collection de packages pour la modélisation et l'apprentissage automatique utilisant les principes de tidyverse. Il offre une approche unifiée et cohérente pour la modélisation statistique, facilitant le prétraitement des données, l'ajustement des modèles et l'évaluation des performances.
+Tidymodels est un métapackage, une collection de packages pour la modélisation et l'apprentissage automatique utilisant les principes de tidyverse.  
+Il offre une approche unifiée et cohérente pour la modélisation statistique, facilitant le prétraitement des données, l'ajustement des modèles et l'évaluation des performances.
 
 
 ## Objectif
 
 Comment prédire si une tumeur mammaire est maligne ou bénigne ? (Problème de classification)
 
-Le but est de développer un modèle qui permet de prédire si une tumeur mammaire est maligne ou bénigne en fonction des mesures de la taille et de la forme des cellules.
+Le but est de développer un modèle qui permet de prédire si une tumeur mammaire est maligne ou bénigne  en fonction des mesures de la taille et de la forme des cellules.
 
 
 ## Données
 
 Les informations pour la démonstration proviennent du dépôt de machine learning de l'Université de Californie à Irvine (UCI).
-
 Il s'agit de la base de données sur le cancer du sein au Wisconsin 
+
 <https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic>   
 
 - Les variables  
@@ -77,6 +78,7 @@ library(tidyverse)
 library(tidymodels)
 library(ggcorrplot)
 library(caret)
+library(brulee)
 ```
 
 
