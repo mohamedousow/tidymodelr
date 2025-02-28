@@ -229,14 +229,14 @@ model_lr <-  parsnip::logistic_reg() |>
 
 ```{r}
 #recipe permet de préparer les données dans le workflow 
-lr_recipe = recipe(diagnosis ~ ., data = dtrain) %>% 
+lr_recipe = recipe(diagnosis ~ ., data = dtrain) |> 
   #normalisation des données 
-            step_normalize(all_numeric(), -all_outcomes()) %>% 
+            step_normalize(all_numeric(), -all_outcomes()) |> 
      #retrait des variables fortement corrélées
              step_corr(all_numeric(), -all_outcomes(),threshold = 0.9)
  
 #  Il nous reste 19 prédicteurs sur 30
-model_train_data = lr_recipe %>% prep() %>% bake(dtrain) 
+model_train_data = lr_recipe %>% prep() |> bake(dtrain) 
 ```
 
 
